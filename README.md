@@ -5,7 +5,7 @@ A simple intern portal built with React+vite, Firebase, and Tailwind CSS. It inc
 
 ## 🔗 Live Demo
 
-👉 [View Project on Netlify](https://internportel.netlify.app/)
+👉 [intern portal app](https://internportel.netlify.app/)
 
 ---
 
