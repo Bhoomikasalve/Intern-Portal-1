@@ -1,0 +1,128 @@
+/* === Global Styles === */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #eeeeee, #ebedee);
+  margin: 0;
+  padding: 0;
+  color: #2c3e50;
+}
+
+/* === Container === */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+/* === Title === */
+.title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: #374785;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* === Card === */
+.card {
+  background: #ffffff;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* === Headings === */
+.card h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: #2f4858;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  color: #556a7b;
+}
+
+/* === Inputs === */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #f7f7f7;
+  transition: border-color 0.2s;
+}
+
+input:focus {
+  border-color: #4b7bec;
+  outline: none;
+}
+
+/* === Buttons === */
+button {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background: linear-gradient(to right, #5a79c0, #16a597);
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(to right, #0435a7, #059b4b);
+}
+
+/* === Lists === */
+ul {
+  padding-left: 1.2rem;
+}
+
+li {
+  margin-bottom: 0.4rem;
+  font-size: 1rem;
+}
+
+/* === Rewards Highlight === */
+li.bold {
+  font-weight: bold;
+  color: #27ae60;
+}
+
+/* === Leaderboard List === */
+.leaderboard-item {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.leaderboard-item span {
+  font-weight: bold;
+  color: #2980b9;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .card {
+    padding: 1.5rem;
+  }
+}
